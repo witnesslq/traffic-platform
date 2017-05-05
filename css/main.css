@@ -100,7 +100,7 @@ input:-ms-input-placeholder{color:#4265a2;font-family:microsoft yahei;}
 
 .show{padding:0 5px;}
 .show a{height:190px;border-bottom:1px solid #4265A2;transition:0.3s;overflow:hidden;}
-.show span{display:block;margin:5px auto;text-align:center;text-shadow:5px 5px 8px #fff;}
+.show span{display:block;margin:5px auto;text-align:center;text-shadow:0 0 1px #fff;}
 .show span.tit{font-weight:bold;}
 .show a:hover{transform:translateY(-2px);box-shadow:0 3px 3px rgba(66,101,162,0.4);}
 .more{background:#61C551;padding:2px;border-radius:3px;position:absolute;right:0;top:15px;}

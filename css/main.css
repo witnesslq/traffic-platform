@@ -33,8 +33,8 @@ i,em{font-style:normal;}b{font-weight:normal;}
 
 .ib{display:inline-block;}.bs{box-sizing:border-box;}.fixed{table-layout:fixed;}
 .pl-40{padding-left:40px;}
-.pt-60{padding-top:60px;}.pb-60{padding-bottom:60px;}
-.pt-50{padding-top:50px;}.pb-50{padding-bottom:50px;}
+.pt-60{padding-top:60px;}.pb-60{padding-bottom:60px;}.block{display:block;}
+.pt-50{padding-top:50px;}.pb-50{padding-bottom:50px;}.h-50{height:50px;}
 .bold{font-weight:bold;}.bt-gray{border-top:1px solid #999999;}
 .mid-layout{width:1200px;margin-left:auto;margin-right:auto;}
 html,body{height:100%;}
@@ -44,10 +44,10 @@ body{padding-top:40px;box-sizing:border-box;}
 .topbar .nav a.active{font-size:16px;font-weight:bold;}
 .topbar .nav a:before{content:"";display:inline-block;width:1px;height:1em;position:absolute;left:0;top:50%;margin-top:-0.5em;background:#fff;}
 .topbar .nav a:first-child:before{width:0;}
-.topbar .nav a:hover{color:#99ccff;}
+.topbar .nav a:hover{text-decoration:underline;}
 .topbar .login a{padding:0 10px;}
 .topbar .login .iconfont{font-size:12px;margin-right:3px;}
-.topbar .login a:hover{opacity:0.9;filter:alpha(opacity=80);}
+.topbar .login a:hover{opacity:0.8;filter:alpha(opacity=80);}
 
 input::-webkit-input-placeholder{color:#4265a2;font-family:microsoft yahei;}
 input::-moz-placeholder{color:#4265a2;font-family:microsoft yahei;}
@@ -62,8 +62,8 @@ input:-ms-input-placeholder{color:#4265a2;font-family:microsoft yahei;}
 .main .search.active input{padding-left:30px;}
 .main .search.active .icon{left:0;}
 .main .item{padding:0 5px;transition:0.3s;}
-.main .item a{background:rgba(255,255,255,0.3)!important;padding:20px;box-sizing:border-box;background:#BDDBFE;}
-.main .item img{display:block;margin:0px auto 10px auto;}
+.main .item a{background:rgba(255,255,255,0.3)!important;padding:0 20px;box-sizing:border-box;background:#BDDBFE;height:120px;}
+.main .item img{display:block;margin:18px auto 10px auto;}
 .main .item.active a{color:#fff;background:rgba(22,63,136,0.55)!important;background:#527CBB;}
 /*轮播图*/
 .wrap{width:100%;height:350px;padding:10px 140px 30px 10px;box-sizing:border-box;position:relative;background:#E8F3FF;}
